@@ -68,6 +68,10 @@ main {
   width: 85%;
 }
 
+.link {
+  padding-left: 10px;
+}
+
 .divider {
   clear: both;
   height: 20px;
