@@ -6,6 +6,10 @@ body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+h3, p {
+  margin: 0;
+}
+
 header {
   width: 100%;
   padding: 15px 0 10px 0;
@@ -21,6 +25,16 @@ main {
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.status {
+  width: 180px;
+  margin: -65px -10px 0 0;
+  padding: 8px 0;
+  background-color: #CCCCCC;
+  color: #222222;
+  text-align: center;
+  float: right;
 }
 
 .box {
@@ -60,10 +74,16 @@ main {
   margin: 0 auto;
 }
 
+.divider-large {
+  clear: both;
+  height: 70px;
+  margin: 0 auto;
+}
+
 .slider-link {
+  margin-top: 5px;
   cursor: pointer;
   color: blue;
-  padding: 5px 0;
   text-decoration: underline;
 }
 
@@ -71,10 +91,21 @@ main {
   text-decoration: none;
 }
 
-.backtop {
-  text-align: right;
+.button {
+  width: 250px;
+  margin: 10px 0 5px 0;
+  padding: 8px 0;
+  background-color: #CCCCCC;
+  color: #222222;
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: center;
 }
 
-h3, p {
-  margin: 0;
+.button:hover {
+  text-decoration: none;
+}
+
+.backtop {
+  text-align: right;
 }
