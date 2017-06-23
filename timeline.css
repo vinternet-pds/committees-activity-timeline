@@ -95,6 +95,16 @@ main {
   text-decoration: none;
 }
 
+.title-link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.title-link:hover {
+  text-decoration: none;
+}
+
 .button {
   width: 250px;
   margin: 10px 0 5px 0;
