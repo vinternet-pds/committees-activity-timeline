@@ -1,4 +1,4 @@
-function toggleDocs(event) {
+function toggleContent(event) {
 
   if (event.target && event.target.className == 'slider-link') {
 
@@ -14,4 +14,4 @@ function toggleDocs(event) {
   }
 }
 
-document.addEventListener('click', toggleDocs, true);
+document.addEventListener('click', toggleContent, true);

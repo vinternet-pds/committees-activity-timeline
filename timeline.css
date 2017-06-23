@@ -1,3 +1,5 @@
+/* Global */
+
 body {
   margin: 0;
   padding: 0;
@@ -10,6 +12,8 @@ h3, p {
   margin: 0;
 }
 
+/* Header */
+
 header {
   width: 100%;
   padding: 15px 0 10px 0;
@@ -20,6 +24,8 @@ header {
   height: 54px;
   padding-left: 20px;
 }
+
+/* Main Content */
 
 main {
   max-width: 1024px;
@@ -68,9 +74,7 @@ main {
   width: 82%;
 }
 
-.link {
-  padding-left: 10px;
-}
+/* Dividers */
 
 .divider {
   clear: both;
@@ -82,6 +86,12 @@ main {
   clear: both;
   height: 70px;
   margin: 0 auto;
+}
+
+/* Links & Buttons */
+
+.link {
+  padding-left: 10px;
 }
 
 .slider-link {
@@ -105,6 +115,10 @@ main {
   text-decoration: none;
 }
 
+.backtop {
+  text-align: right;
+}
+
 .button {
   width: 250px;
   margin: 10px 0 5px 0;
@@ -118,8 +132,4 @@ main {
 
 .button:hover {
   text-decoration: none;
-}
-
-.backtop {
-  text-align: right;
 }
